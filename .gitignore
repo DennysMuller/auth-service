@@ -1,0 +1,24 @@
+# NodeJS
+node_modules/
+npm-debug.log*
+.env
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+
+# Testes
+coverage/
+
+# Outros
+*.swp
+*.swo
