@@ -2,6 +2,13 @@
 
 API REST simples para autenticação de usuários, com separação entre Controller, Service e Model, uso de JWT, documentação Swagger e testes automatizados.
 
+## Integração Contínua (CI)
+
+Este projeto executa automaticamente os testes em cada push ou pull request usando Github Actions.
+
+- O pipeline instala as dependências e executa `npm test` após o clone do repositório.
+- O status da execução pode ser acompanhado na aba 'Actions' do Github.
+
 ## Instalação
 
 ```bash
