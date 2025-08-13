@@ -91,6 +91,8 @@ const token = jwt.sign({ login: 'user1' }, SECRET);
 - Adicionadas informações sobre as tecnologias utilizadas e a estrutura do projeto.
 
 ## 12. Configuração de Pipeline CI com Github Actions
+- Texto utilizado
+  - Configure a execução de uma pipeline com Github Actions na qual os testes serão executados após o clone.
 - Adicionado arquivo `.github/workflows/ci.yml` para rodar testes automaticamente em cada push ou pull request.
 - O workflow executa:
   - Checkout do código

@@ -287,3 +287,29 @@ Fez alterações.
 Adicionei ao ChatGPT.MD uma explicação simples sobre cada arquivo principal do projeto e um detalhamento linha a linha dos 5 testes automatizados do controller.test.js, facilitando o entendimento para leigos.
 
 Se quiser mais exemplos, explicações ou ajustes, só pedir!
+
+DennysMuller: Configure a execução de uma pipeline com Github Actions na qual os testes serão executados após o clone.
+e atualize o README.MD
+
+GitHub Copilot: Fez alterações.
+
+
+````
+
+````
+
+
+Fez alterações.
+
+
+````
+
+````
+
+
+Fez alterações.
+
+Pipeline de integração contínua configurada com Github Actions: agora, a cada push ou pull request, os testes são executados automaticamente.  
+O README.md foi atualizado com instruções sobre a CI.
+
+O histórico do projeto também foi registrado no ChatGPT.MD. Se quiser personalizar mais etapas da pipeline ou adicionar badges, só avisar!
