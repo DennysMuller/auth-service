@@ -81,6 +81,24 @@ const token = jwt.sign({ login: 'user1' }, SECRET);
 ```
 - Isso garante que o middleware aceite o token e o teste passe corretamente.
 
+## 11. Atualização do README.md
+- Adicionadas instruções detalhadas sobre como executar a API, incluindo:
+  - Instalação das dependências
+  - Execução do servidor
+  - Acesso à documentação Swagger
+  - Execução dos testes
+- Seções reorganizadas para melhor fluidez e compreensão.
+- Adicionadas informações sobre as tecnologias utilizadas e a estrutura do projeto.
+
+## 12. Configuração de Pipeline CI com Github Actions
+- Adicionado arquivo `.github/workflows/ci.yml` para rodar testes automaticamente em cada push ou pull request.
+- O workflow executa:
+  - Checkout do código
+  - Instalação do Node.js
+  - Instalação das dependências
+  - Execução dos testes (`npm test`)
+- README.md atualizado com instruções sobre a integração contínua e como acompanhar o status pelo Github.
+
 ## Observações Gerais
 - Banco de dados em memória.
 - API pronta para automação de testes.
